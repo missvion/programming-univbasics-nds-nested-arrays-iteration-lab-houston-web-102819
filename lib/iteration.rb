@@ -16,7 +16,7 @@ def find_greater_pair(src)
   larger_number = []
   row_index = 0
   while row_index < src.count do
-    larger_number << (src[row_index][0] > (src[row_index][1]) ? src[row_index][0] : src[row_index][1]
+    larger_number << src[row_index][0] > (src[row_index][1] ? src[row_index][0] : src[row_index][1]
     row_index += 1
   end
   larger_number
