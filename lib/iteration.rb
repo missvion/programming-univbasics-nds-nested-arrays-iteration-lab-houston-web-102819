@@ -16,6 +16,7 @@ def find_greater_pair(src)
     larger_number << src[row_index][0] > (src[row_index][1] ? src[row_index][0] : src[row_index][1]
     row_index += 1
   end
+end
   larger_number
 end
 
